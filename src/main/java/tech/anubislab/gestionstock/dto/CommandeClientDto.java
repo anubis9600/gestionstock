@@ -1,16 +1,16 @@
 package tech.anubislab.gestionstock.dto;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
-import tech.anubislab.gestionstock.model.Client;
-import tech.anubislab.gestionstock.model.LigneCommandeClient;
-
 import java.time.Instant;
 import java.util.List;
 
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
 public class CommandeClientDto {
+
+    private Integer id;
 
     private String code;
 

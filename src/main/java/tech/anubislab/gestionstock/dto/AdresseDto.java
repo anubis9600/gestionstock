@@ -1,6 +1,5 @@
 package tech.anubislab.gestionstock.dto;
 
-import jakarta.persistence.Column;
 import lombok.Builder;
 import lombok.Data;
 

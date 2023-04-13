@@ -1,18 +1,16 @@
 package tech.anubislab.gestionstock.dto;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Embedded;
-import jakarta.persistence.OneToMany;
 import lombok.Builder;
 import lombok.Data;
 import tech.anubislab.gestionstock.model.Adresse;
-import tech.anubislab.gestionstock.model.Utilisateur;
 
 import java.util.List;
 
 @Builder
 @Data
 public class EntrepriseDto {
+
+    private Integer id;
 
     private String nom;
 
